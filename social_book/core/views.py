@@ -3,4 +3,4 @@ from django.shortcuts import render, HttpResponse
 
 
 def index(request):
-    return HttpResponse('welcome')
+    return render(request, 'index.html')
